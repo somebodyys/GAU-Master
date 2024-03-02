@@ -1,0 +1,28 @@
+The thermal hall effect (THE) is a physical phenomenon characterized by tiny transverse temperature differences occurring in a material when a thermal current passes through it and a perpendicular magnetic field is applied to it. This effect has been observed in a growing number of insulators, yet its underlying physics remains poorly understood.
+
+Researchers at Université de Sherbrooke in Canada have been trying to identify the mechanism behind this effect in different materials. Their most recent paper, published in Nature Physics, specifically examined this effect in the antiferromagnetic insulator strontium iridium oxide (Sr2IrO4).
+
+"Our current research activity on the THE in insulators started with our discovery of a large THE in cuprate superconductors," Louis Taillefer, co-author of the paper, told Phys.org.
+
+"This came as a big surprise to everyone, in particular the fact that the large THE persisted all the way to zero doping, where cuprates are Mott insulators. This immediately sparked interest among various theorists, including Steve Kivelson at Stanford and Subir Sachdev at Harvard."
+
+Shortly after their discovery, the researchers were able to determine that the heat carriers responsible for this effect in cuprate insulators are phonons, waves of oscillatory atomic vibrational energy. These findings were outlined in a paper published in Nature Physics in 2020.
+
+"The idea behind this work was to send the heat current perpendicular to the CuO2 planes, a direction along which only phonons can travel, but not electrons or spin-related excitations," Taillefer said. "This showed that phonons are the relevant heat carriers, as found just before by Kamran Behnia's group in strontium titanate."
+
+On the left is PhD student Amirreza Ataei, the lead author of the article, and on the right is Professor Louis Taillefer, the principal investigator of the project. Credit: Michel Caron, Université de Sherbrooke
+The team's experimental results indicated that phonons underpinned the THE they observed in cuprate insulators, yet the physical mechanism through which they enabled this effect remained unknown. Their work subsequently inspired many theoretical physicists to offer a possible explanation for this mechanism, including Kivelson at Stanford University, Sachdev at Harvard University, Allan MacDonald at Texas University and, Leon Balents at KITP Santa Barbara.
+
+"Our experimental approach has been to search for the phonon THE in a wide variety of materials," Taillefer explained. "One such material is the antiferromagnetic insulator Cu3TeO6. Another is the iridate Sr2IrO4, which is the topic of our latest paper in Nature Physics."
+
+As part of their recent study, therefore, Taillefer and his colleagues specifically searched for the effect of impurities on the phonon induced THE in Sr2IrO4. To do this, their collaborator Véronique Brouet at the Laboratoire de Physique des Solides at Université Paris-Saclay introduced two types of impurities into the material; firstly rhodium (Rh) impurities and then lanthanum (La) impurities.
+
+"The big surprise was the huge enhancement of the THE that we saw when a small concentration of Rh impurities was added," Taillefer said. "We observed a 70-fold increase with only 5% of Rh substituting for Ir. This is a strong indication that the phonon THE is caused by the scattering of phonons off impurities that are embedded in an antiferromagnetic environment (in this case the IrO2 layers)."
+
+The new findings gathered by Taillefer and his colleagues hint at a possible mechanism that could underpin the phonon THE observed in Sr2IrO4. This mechanism involves the scattering of phonons by impurities, possibly through resonant processes such as those suggested by Kivelson or Sachdev. Meanwhile, the researchers plan to continue their research into the THE effect, focusing on various other materials.
+
+"One direction for future research will be to see whether materials that are candidates for quantum spin liquid states generate a THE that is not from phonons, but rather from exotic emergent excitations, such as Majorana fermions or spinons," Taillefer added.
+
+"Candidate materials include RuCl3 and Na2Cu2TeO6. Another direction, this time for the phonon THE, will be to understand how some materials can generate a THE when the applied magnetic field is parallel to the heat current; the so-called 'planar THE.' Baffling!"
+
+In late 2023, Taillefer and his colleagues published various papers probing the planar THE in different classes of materials. Their studies have so far focused on frustrated antiferromagnetic insulators, Kitaev materials, and cuprates.
