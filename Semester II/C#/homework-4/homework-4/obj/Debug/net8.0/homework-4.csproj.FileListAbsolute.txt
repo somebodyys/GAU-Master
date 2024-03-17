@@ -1,0 +1,15 @@
+/Users/storage/GAU-Master/Semester II/C#/homework-4/homework-4/bin/Debug/net8.0/homework-4
+/Users/storage/GAU-Master/Semester II/C#/homework-4/homework-4/bin/Debug/net8.0/homework-4.deps.json
+/Users/storage/GAU-Master/Semester II/C#/homework-4/homework-4/bin/Debug/net8.0/homework-4.runtimeconfig.json
+/Users/storage/GAU-Master/Semester II/C#/homework-4/homework-4/bin/Debug/net8.0/homework-4.dll
+/Users/storage/GAU-Master/Semester II/C#/homework-4/homework-4/bin/Debug/net8.0/homework-4.pdb
+/Users/storage/GAU-Master/Semester II/C#/homework-4/homework-4/obj/Debug/net8.0/homework-4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/storage/GAU-Master/Semester II/C#/homework-4/homework-4/obj/Debug/net8.0/homework-4.AssemblyInfoInputs.cache
+/Users/storage/GAU-Master/Semester II/C#/homework-4/homework-4/obj/Debug/net8.0/homework-4.AssemblyInfo.cs
+/Users/storage/GAU-Master/Semester II/C#/homework-4/homework-4/obj/Debug/net8.0/homework-4.csproj.CoreCompileInputs.cache
+/Users/storage/GAU-Master/Semester II/C#/homework-4/homework-4/obj/Debug/net8.0/homework-4.sourcelink.json
+/Users/storage/GAU-Master/Semester II/C#/homework-4/homework-4/obj/Debug/net8.0/homework-4.dll
+/Users/storage/GAU-Master/Semester II/C#/homework-4/homework-4/obj/Debug/net8.0/refint/homework-4.dll
+/Users/storage/GAU-Master/Semester II/C#/homework-4/homework-4/obj/Debug/net8.0/homework-4.pdb
+/Users/storage/GAU-Master/Semester II/C#/homework-4/homework-4/obj/Debug/net8.0/homework-4.genruntimeconfig.cache
+/Users/storage/GAU-Master/Semester II/C#/homework-4/homework-4/obj/Debug/net8.0/ref/homework-4.dll
