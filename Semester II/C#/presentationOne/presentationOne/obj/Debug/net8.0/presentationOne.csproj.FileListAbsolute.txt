@@ -1,0 +1,15 @@
+/Users/storage/GAU-Master/Semester II/C#/presentationOne/presentationOne/bin/Debug/net8.0/presentationOne
+/Users/storage/GAU-Master/Semester II/C#/presentationOne/presentationOne/bin/Debug/net8.0/presentationOne.deps.json
+/Users/storage/GAU-Master/Semester II/C#/presentationOne/presentationOne/bin/Debug/net8.0/presentationOne.runtimeconfig.json
+/Users/storage/GAU-Master/Semester II/C#/presentationOne/presentationOne/bin/Debug/net8.0/presentationOne.dll
+/Users/storage/GAU-Master/Semester II/C#/presentationOne/presentationOne/bin/Debug/net8.0/presentationOne.pdb
+/Users/storage/GAU-Master/Semester II/C#/presentationOne/presentationOne/obj/Debug/net8.0/presentationOne.GeneratedMSBuildEditorConfig.editorconfig
+/Users/storage/GAU-Master/Semester II/C#/presentationOne/presentationOne/obj/Debug/net8.0/presentationOne.AssemblyInfoInputs.cache
+/Users/storage/GAU-Master/Semester II/C#/presentationOne/presentationOne/obj/Debug/net8.0/presentationOne.AssemblyInfo.cs
+/Users/storage/GAU-Master/Semester II/C#/presentationOne/presentationOne/obj/Debug/net8.0/presentationOne.csproj.CoreCompileInputs.cache
+/Users/storage/GAU-Master/Semester II/C#/presentationOne/presentationOne/obj/Debug/net8.0/presentationOne.sourcelink.json
+/Users/storage/GAU-Master/Semester II/C#/presentationOne/presentationOne/obj/Debug/net8.0/presentationOne.dll
+/Users/storage/GAU-Master/Semester II/C#/presentationOne/presentationOne/obj/Debug/net8.0/refint/presentationOne.dll
+/Users/storage/GAU-Master/Semester II/C#/presentationOne/presentationOne/obj/Debug/net8.0/presentationOne.pdb
+/Users/storage/GAU-Master/Semester II/C#/presentationOne/presentationOne/obj/Debug/net8.0/presentationOne.genruntimeconfig.cache
+/Users/storage/GAU-Master/Semester II/C#/presentationOne/presentationOne/obj/Debug/net8.0/ref/presentationOne.dll
