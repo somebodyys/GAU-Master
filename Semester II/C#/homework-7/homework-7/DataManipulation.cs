@@ -7,7 +7,7 @@ public class DataManipulation
 {
     public static void Run()
     {
-        string connectionString = "your_connection_string_here";
+        string connectionString = "Server=localhost,1433;Database=ImaginaryWorld;User=sa;Password=1234;";
 
         using (SqlConnection connection = new SqlConnection(connectionString))
         {
