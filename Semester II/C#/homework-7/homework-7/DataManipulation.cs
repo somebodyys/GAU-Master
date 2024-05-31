@@ -27,6 +27,11 @@ public class DataManipulation
             
             SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM Creatures", connection);
             SqlCommandBuilder commandBuilder = new SqlCommandBuilder(adapter);
+            commandBuilder.DataAdapter = adapter;
+
+            commandBuilder.GetUpdateCommand();
+            commandBuilder.GetInsertCommand();
+            commandBuilder.GetDeleteCommand();
             
             adapter.Fill(dataSet, "Creatures");
             
