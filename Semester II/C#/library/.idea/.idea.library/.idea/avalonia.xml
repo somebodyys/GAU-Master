@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="library/App.axaml" value="library/library.csproj" />
+        <entry key="library/Views/AuthorsViews.axaml" value="library/library.csproj" />
+        <entry key="library/Views/MainWindow.axaml" value="library/library.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

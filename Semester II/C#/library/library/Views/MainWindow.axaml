@@ -1,0 +1,58 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:library.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="library.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Library">
+
+    <Window.DataContext>
+        <vm:MainWindowViewModel/>
+    </Window.DataContext>
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto" x:Name="Root">
+        <StackPanel Margin="10">
+            <StackPanel Orientation="Horizontal" Margin="0,20,0,5">
+                <TextBlock FontSize="16" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0" Text="Name"/>
+                <TextBox Text="{Binding NewAuthorName, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Stretch" MinWidth="100"/>
+                <TextBlock FontSize="16" FontWeight="Bold" VerticalAlignment="Center" Margin="10,0,10,0" Text="Nationality"/>
+                <TextBox Text="{Binding NewAuthorNationality, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Stretch" MinWidth="100"/>
+                <Button Content="Add Author" Command="{Binding AddAuthorCommand}" Width="100" Margin="10,0,0,0"/>
+            </StackPanel>
+
+            <TextBlock FontSize="20" FontWeight="Bold" Text="Authors"/>
+            <ListBox ItemsSource="{Binding Authors}" BorderThickness="1" BorderBrush="Gray">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderThickness="1" BorderBrush="LightGray" Margin="5" Padding="5">
+                            <StackPanel>
+                                <TextBlock Text="{Binding name}" FontWeight="Bold" FontSize="16"/>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Author ID: " FontWeight="Bold"/>
+                                    <TextBlock Text="{Binding author_id}"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Nationality: " FontWeight="Bold"/>
+                                    <TextBlock Text="{Binding nationality}"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button Content="Update"
+                                            Command="{Binding #Root.((vm:MainWindowViewModel)DataContext).UpdateAuthorCommand}"
+                                            CommandParameter="{Binding .}"
+                                            Margin="0 5 10 0"/>
+                                    <Button Content="Delete"
+                                            Command="{Binding #Root.((vm:MainWindowViewModel)DataContext).DeleteAuthorCommand}"
+                                            CommandParameter="{Binding .}"
+                                            Margin="0 5"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
