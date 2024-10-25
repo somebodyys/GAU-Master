@@ -1,3 +1,4 @@
+using HomeworkOne.Filters;
 using HomeworkOne.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -5,6 +6,8 @@ namespace HomeworkOne.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[ServiceFilter(typeof(LoggingFilter))]
+[ServiceFilter(typeof(BasicAuthorizationFilter))]
 public class ProductsController : ControllerBase
 {
     private static readonly List<Product> Products = new List<Product>
