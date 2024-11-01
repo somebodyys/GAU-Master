@@ -1,0 +1,23 @@
+@model IEnumerable<HomeworkTwo.Models.Book>
+
+<h2>Book List</h2>
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Year</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var book in Model)
+    {
+        <tr>
+            <td>@book.Title</td>
+            <td>@book.Author</td>
+            <td>@book.Year</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@book.Id">Details</a>
+            </td>
+        </tr>
+    }
+</table>
+<a asp-action="Create">Add New Book</a>
