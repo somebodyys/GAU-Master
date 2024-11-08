@@ -20,9 +20,9 @@ public class BasicAuthorizationFilter : IAuthorizationFilter
         switch (token)
         {
             case "user-token":
-                if (context.ActionDescriptor.RouteValues["action"] == "CreateProduct" ||
-                    context.ActionDescriptor.RouteValues["action"] == "UpdateProduct" ||
-                    context.ActionDescriptor.RouteValues["action"] == "DeleteProduct")
+                if (context.ActionDescriptor.RouteValues["action"] == "Post" ||
+                    context.ActionDescriptor.RouteValues["action"] == "Update" ||
+                    context.ActionDescriptor.RouteValues["action"] == "Delete")
                 {
                     context.Result = new UnauthorizedResult();
                 }
