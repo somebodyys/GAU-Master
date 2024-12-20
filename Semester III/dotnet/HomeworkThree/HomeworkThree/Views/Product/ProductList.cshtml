@@ -1,0 +1,31 @@
+@model List<HomeworkThree.Models.Product>
+
+<h2>Product List</h2>
+
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var product in Model)
+    {
+    <tr>
+        <td>@product.Name</td>
+        <td>@product.Description</td>
+        <td>@product.Price</td>
+        <td>@product.Category</td>
+        <td>
+            <a href="@Url.Action("ProductDetails", "Product", new { id = product.Id })">View</a> |
+            <a href="@Url.Action("EditProduct", "Product", new { id = product.Id })">Edit</a>
+        </td>
+    </tr>
+    }
+    </tbody>
+</table>
+<a href="@Url.Action("AddProduct", "Product")">Add New Product</a>
