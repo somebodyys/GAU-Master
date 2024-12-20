@@ -13,6 +13,11 @@ public class UserController : Controller
     
     public ActionResult Index()
     {
+        ViewBag.Title = "User List";
+        ViewBag.Message = "List of all registered users.";
+        ViewData["UserCount"] = Users.Count;
+        TempData["LastAdded"] = Users.Last().Name;
+
         return View(Users);
     }
     
