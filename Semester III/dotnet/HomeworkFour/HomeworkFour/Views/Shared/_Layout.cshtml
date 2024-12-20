@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>@ViewData["Title"]</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Welcome to My User Info Page</h1>
+            <nav>
+                <ul>
+                    <li><a href="@Url.Action("Index", "User")">Users List</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main role="main" class="container">
+            @RenderBody()
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Your Company</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+@model List<HomeworkFour.Models.User>
+
+<h2>User List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@{ Html.RenderPartial("_UserDetails", user); }</td>
+            </tr>
+        }
+    </tbody>
+</table>
