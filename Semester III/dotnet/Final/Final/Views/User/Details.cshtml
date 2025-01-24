@@ -1,0 +1,54 @@
+@model Final.Models.User
+
+@{
+    ViewData["Title"] = "User Details";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/036/294/559/small_2x/ai-generated-eagle-head-illustration-isolated-on-transparent-background-for-t-shirt-design-png.png" alt="Eagle" class="img-fluid rounded" style="max-height: 400px; width: auto;">
+    </div>
+
+    <div class="card p-4 shadow-sm">
+        <div class="card-body">
+            <h4 class="card-title text-center mb-4">User Details</h4>
+
+            <div class="row mb-3">
+                <div class="col-md-3">
+                    <strong>Full Name:</strong>
+                </div>
+                <div class="col-md-9">
+                    @Model.FirstName @Model.LastName
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-3">
+                    <strong>Email:</strong>
+                </div>
+                <div class="col-md-9">
+                    @Model.Email
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-3">
+                    <strong>Mobile Phone:</strong>
+                </div>
+                <div class="col-md-9">
+                    @Model.MobilePhone
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-3">
+                    <strong>ID Number:</strong>
+                </div>
+                <div class="col-md-9">
+                    @Model.IDNumber
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

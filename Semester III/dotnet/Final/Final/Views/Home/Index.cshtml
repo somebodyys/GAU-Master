@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-md-6">
+            <img src="https://storage.googleapis.com/pod_public/750/234506.jpg" alt="Eagle" class="img-fluid mb-4 rounded" style="max-height: 1000px; width: auto;">
+        </div>
+
+        <div class="col-md-6">
+            <div class="text-center">
+                <h1 class="display-4 text-primary mb-4">Welcome to Eagle Land</h1>
+                <p class="lead mb-4">Please login or register to access the nest and begin your journey.</p>
+
+                <div class="d-flex justify-content-center">
+                    <a href="@Url.Action("Login", "User")" class="btn btn-outline-primary btn-lg mx-2">Login</a>
+                    <a href="@Url.Action("Register", "User")" class="btn btn-primary btn-lg mx-2">Register</a>
+                </div>
+
+                <hr class="my-5">
+
+                <p class="mb-0">Want to learn more? Visit our <a href="https://en.wikipedia.org/wiki/Eagle" target="_blank" class="text-info">Supercharged Login Website</a>.</p>
+            </div>
+        </div>
+    </div>
+</div>
